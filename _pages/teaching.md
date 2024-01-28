@@ -2,6 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
+published: false
 description: 
 nav: true
 nav_order: 6
