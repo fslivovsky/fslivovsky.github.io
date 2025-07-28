@@ -1,0 +1,74 @@
+{
+  "basics": {
+    "name": "Friedrich Slivovsky",
+    "email": "f.slivovsky@liverpool.co.uk",
+    "location": {
+      "address": "Ashton Building, Ashton Street",
+      "postalCode": "L69 3BX",
+      "city": "Liverpool",
+      "countryCode": "UK"
+    }
+  },
+  "work": [
+    {
+      "position": "Lecturer",
+      "employer": "University of Liverpool",
+      "startDate": "2023",
+      "endDate": "Present"
+    },
+    {
+      "position": "Research Associate (Postdoc)",
+      "employer": "Institute of Logic and Computation, TU Wien",
+      "startDate": "2018",
+      "endDate": "2023"
+    },
+    {
+      "position": "Research Associate (Postdoc)",
+      "employer": "Wolfgang Pauli Institute (WPI) Vienna",
+      "startDate": "2017",
+      "endDate": "2018"
+    },
+    {
+      "position": "Research Associate (Postdoc)",
+      "employer": "Institute for Computer Graphics and Algorithms, TU Wien",
+      "startDate": "2015",
+      "endDate": "2017"
+    },
+    {
+      "position": "Research Associate (PhD)",
+      "employer": "Institute for Information Systems, TU Wien",
+      "startDate": "2011",
+      "endDate": "2015"
+    },
+    {
+      "position": "Research Associate (PhD)",
+      "employer": "Institute of Discrete Mathematics and Geometry, TU Wien",
+      "startDate": "2009",
+      "endDate": "2011"
+    }
+  ],
+  "education": [
+    {
+      "institution": "TU Wien, Vienna",
+      "area": "Doctor of Technical Sciences (Computer Science)",
+      "studyType": "PhD",
+      "startDate": "2009",
+      "endDate": "2015",
+      "thesis": "Structure in #SAT and QBF"
+    },
+    {
+      "institution": "TU Wien, Vienna",
+      "area": "Master Computational Intelligence",
+      "studyType": "Master",
+      "startDate": "2006",
+      "endDate": "2009"
+    },
+    {
+      "institution": "TU Wien, Vienna",
+      "area": "Bachelor Software & Information Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2002",
+      "endDate": "2006"
+    }
+  ]
+}
