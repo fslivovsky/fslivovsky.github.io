@@ -23,7 +23,9 @@ jobs:
           ruby-version: "3.2.2"
           bundler-cache: true
       - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
+        # pinned to a commit SHA (v0.17.0) so a compromised branch/tag cannot
+        # take over this job, which runs with `contents: write`
+        uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef # v0.17.0
         with:
           commitChange: false
           valueFile: "_config.yml"
@@ -35,7 +37,6 @@ jobs:
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
-          npm install -g mermaid.cli
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
       - name: Purge unused CSS 🧹
