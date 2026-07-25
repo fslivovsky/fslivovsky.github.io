@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Lecturer, <a href='https://www.liverpool.ac.uk/computer-science/'>Department of Computer Science, University of Liverpool</a>
+subtitle: Lecturer, <a href='https://www.liverpool.ac.uk/computer-science/'>School of Computer Science and Informatics, University of Liverpool</a>
 
 profile:
   align: right
