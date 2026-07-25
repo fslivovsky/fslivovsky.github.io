@@ -44,5 +44,7 @@ jobs:
         uses: lycheeverse/lychee-action@v1.9.0
         with:
           fail: true
-          # removed md files that include liquid tags
-          args: --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --verbose --no-progress './**/*.md' './**/*.html'
+          # --exclude-all-private: localhost/private-IP URLs in the setup docs
+          # --exclude '<your': placeholder URLs in INSTALL.md and FAQ.md
+          # --exclude-path: md files that include liquid tags
+          args: --exclude-all-private --exclude '<your' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --verbose --no-progress './**/*.md' './**/*.html'
