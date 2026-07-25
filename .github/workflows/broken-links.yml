@@ -46,5 +46,6 @@ jobs:
           fail: true
           # --exclude-all-private: localhost/private-IP URLs in the setup docs
           # --exclude '<your': placeholder URLs in INSTALL.md and FAQ.md
-          # --exclude-path: md files that include liquid tags
-          args: --exclude-all-private --exclude '<your' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --verbose --no-progress './**/*.md' './**/*.html'
+          # --exclude-path: md files with liquid tags, plus upstream docs that
+          # link to template directories this site does not have
+          args: --exclude-all-private --exclude '<your' --exclude-path README.md --exclude-path CUSTOMIZE.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --verbose --no-progress './**/*.md' './**/*.html'
